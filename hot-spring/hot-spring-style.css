@@ -1,0 +1,92 @@
+main{
+    text-align: center;
+    font-size: 48px;
+}
+
+main h1{
+    font-weight: normal;
+    padding: 2rem;
+}
+
+main div{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+main p{
+    padding-bottom: 3rem;
+}
+
+main h2{
+    font-weight: normal;
+}
+
+main h2 #top-spring {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.keigo{
+    padding-top:1.5rem;
+    padding-left:3rem ;
+    padding-right:3rem ;
+    padding-bottom: 2rem;
+}
+
+.keigo-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 1.8rem;
+    text-align: left;
+    clip-path: inset(0px 0px 0px round 0px  0px 40px 0px);
+    background-color: rgb(211,211,211,0.4);
+}
+
+iframe{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-style: 0 ; 
+}
+
+h3{
+    margin: 0.3rem;
+    text-align: center;
+}
+
+h4{
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.onsen{
+    padding-bottom: 3rem;
+}
+
+li{list-style: none;
+    padding: auto;
+}
+
+@media (max-width:700px){
+    .onsen{
+        width: 30rem;
+        height: 20rem;
+    }
+}
+@media (max-width:700px){
+    main div{
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width:530px) {
+   .keigo img{
+    padding: 0.2rem;
+    width: 18rem;
+    height: 12rem;
+   }
+}
+
