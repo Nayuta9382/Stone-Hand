@@ -1,0 +1,263 @@
+/* topimg */
+.top-title{
+    background-image: url(./index-img/top.png);
+    height: 31.25rem;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+}
+.top-title h1{
+    text-align: center;
+    align-items: center;
+    font-size: 6rem;
+    color: white;
+    font-weight: normal;
+    -webkit-text-stroke: 1px #be9e9e;
+}
+.h1-div{
+    height: 31.25rem;
+    position: relative;
+    top:5%;
+}
+
+
+/* 温泉 */
+.hot-spring-div{
+    margin-top: 6.25rem;
+    margin-left:40px;
+    margin-right:40px;
+    
+}
+.hot-spring-div a{
+    color: black;
+    text-decoration: none;
+}
+.hot-spring-div img{
+    height:25rem ;
+    width: 100%;
+}
+
+.hot-explanation{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.hot-title{
+    width: 60%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 4rem;
+}
+.hot-p{
+    width: 40%;
+    font-size: 1.25rem;
+    padding-right: 2rem;
+}
+.hot-spring-div:hover{
+    opacity: 0.6;
+}
+
+
+/* その他コンテンツ */
+
+.sab-contents{
+    margin-top: 6.25rem;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+
+.content-column{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.content-column a{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.content{
+    display: flex;
+    width: 48%;
+    height:17.5rem ;
+}
+
+.content img{
+    width: 45%;
+}
+.introduction{
+    width: 55%;
+    background-color: #d9d9d9;
+    padding: 0 1rem;
+}
+.introduction h1{
+    margin:  1rem 0;
+    font-size: 1.875rem;
+    font-weight: normal;
+}
+.introduction p{
+    font-size: 1.1rem;
+}
+
+.content:hover{
+    opacity: 0.6;
+}
+
+/* トップメディア */
+@media (max-width:850px){
+    .top-title{
+        height: 20rem;
+        background-size: cover;
+    }
+    .top-title h1{
+        font-size: 4rem;
+    }
+}
+
+
+
+/* メインコンテンツメディア */
+
+@media (max-width:1100px){
+    .hot-title{
+        font-size: 3rem;
+        width: 50%;
+        padding-right: 0.5rem;
+    }
+
+    .hot-p{
+        width: 50%;
+    }
+}
+@media (max-width:850px){
+
+    .hot-title{
+        font-size: 3rem;
+        width: 60%;
+    }
+    .hot-spring-div img{
+        height:18.5rem ;
+    }
+
+    .hot-p{
+        font-size: 1rem;
+    }
+    .hot-explanation{
+        display: block;
+        padding-top: 1rem;
+    }
+
+    .hot-p{
+        padding-top: 1rem;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    
+}
+
+@media (max-width:730px){
+
+    .hot-title{
+        font-size: 2.2rem;
+    }
+
+    .hot-spring-div img{
+        height:15rem ;
+    }
+    .hot-title{
+        width: 100%;
+        padding-left:1rem ;
+        text-align: left;
+    }
+
+    .hot-p{
+        padding-top: 1rem;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (max-width:500px){
+
+    .hot-spring-div img{
+        height:13rem ;
+    }
+
+    .hot-title{
+        font-size: 1.8rem;
+    }
+
+    .hot-p{
+        font-size: 1rem;
+    }
+}
+
+
+/* サブコンテンツメディア */
+@media (max-width:940px){
+
+    .introduction h1{
+        font-size: 1.375rem;
+    }
+    .introduction p{
+        font-size: 0.8rem;
+    }
+    .content{
+        height: 14rem;
+    }
+}
+
+
+
+
+@media (max-width:730px){
+
+    .content-column{
+        display: block;
+    }
+    .content{
+        width: 100%;
+        margin-bottom: 6rem;
+        height: 17.5rem;
+    }
+
+    .introduction h1{
+        font-size: 1.875rem;
+    }
+    .introduction p{
+        font-size: 1.1rem;
+    }
+    
+
+
+
+}
+
+
+
+@media (max-width:500px){
+
+    .introduction h1{
+        font-size: 1.375rem;
+    }
+    .introduction p{
+        font-size: 0.8rem;
+    }
+    .content{
+        height: 14rem;
+    }
+
+}
+
+
+
+
+

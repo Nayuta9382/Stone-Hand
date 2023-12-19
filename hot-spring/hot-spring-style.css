@@ -1,0 +1,168 @@
+main{
+    text-align: center;
+    font-size: 48px;
+}
+
+main h1{
+    font-weight: normal;
+    padding: 2rem;
+}
+
+main div{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+main p{
+    padding-bottom: 3rem;
+}
+
+main h2{
+    font-weight: normal;
+}
+
+main h2 #top-spring {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.keigo{
+    padding-top:1.5rem;
+    padding-left:3rem ;
+    padding-right:3rem ;
+    padding-bottom: 2rem;
+    display: flex;
+}
+.top-spring{
+    width: 55%;
+    height: 50vw;
+}
+
+
+.keigo-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 50vw;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 1.8rem;
+    text-align: left;
+    clip-path: inset(0px 0px 0px round 0px  0px 40px 0px);
+    background-color: rgb(211,211,211,0.4);
+}
+
+.keigo-3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.keigo-4{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0;
+}
+iframe{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-style: 0 ; 
+}
+
+h3{
+    margin: 0.3rem;
+    text-align: center;
+}
+
+h4{
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.onsen{
+    padding-bottom: 3rem;
+}
+
+li{list-style: none;
+    padding: auto;
+}
+
+@media (max-width:1100px) {
+    .keigo-4{
+        flex-wrap: wrap;
+    }
+
+        
+}
+@media (max-width:1200px) {
+    .keigo-2 p{
+        font-size: 1.11rem;
+    }
+    .keigo-2 h4{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:1050px) {
+    
+    .keigo{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .keigo-2{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 42.5vw;
+        flex-wrap: nowrap;
+    }
+    .keigo-3{
+        width: 63%;
+        padding-right: 3rem;
+    }
+    .keigo-3 h3{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .keigo-3 p{
+        font-size: 1.25rem;
+    }
+
+    .keigo-4{
+        width: 37%;
+    }
+
+    .keigo-4 h4{
+
+        padding-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .keigo-4 li{
+        font-weight: normal;
+        padding-top: 6rem;
+    }
+
+    iframe{
+        margin-left: 12rem;
+    }
+
+    .keigo img{
+        width: 90%;
+        height: 42vw;
+        margin:  0 auto;
+    }
+
+}
+/* @media (max-width:800px){
+   main{
+    display: block;
+   }
+
+   .keigo img{
+    width: 50vw;
+    height: 50vw;
+   }
+} */
