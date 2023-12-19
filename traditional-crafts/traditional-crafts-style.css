@@ -1,0 +1,242 @@
+/* top　画像　各々微調整 */
+.ii img{
+    width: 100%;
+    /* height: 43.75rem;
+     */
+     height: 60vw;
+    margin: 0 auto;
+}
+
+.to-img{
+    height: 100%;
+    width: 100%;
+}
+
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+main h3{
+    font-size: 1.6rem;
+}
+main p{
+    font-size: 1.1rem;
+}
+.bun h3{
+    margin:0.5rem 0 ;
+}
+main .head{
+    text-align: center;
+}
+main .head h1{
+    font-size: 6rem;
+}
+main .head .ii{
+    
+    /* height: 25rem; */
+    margin-top: 2rem;
+}
+
+main .to{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+.address{
+    font-size: 1rem;
+}
+main .to .hidari,main .to .migi{
+    width: 35%;
+    margin:  0 7% 5rem 7%;
+   
+}
+
+
+
+.hidari + .migi{
+    border-left:1px solid black ;
+    
+}
+.migi,.hidari{
+     background-color: rgb(230, 227, 223);
+
+  
+}
+.bun , .address{
+    padding:  0 1rem;
+}
+.address{
+    padding-bottom: 0.5rem;
+}
+
+.img{
+    height: 14rem;
+}
+
+.line{
+    width: 1px;
+    border: 0.5px solid;
+    
+}
+.line-bottom{
+    width: 1px;
+    border: 0.5px solid;
+    height: 26rem;
+}
+
+
+
+.head+.to{
+    margin-top: 18vw;
+}
+
+main .to .hidari .img,main .to .migi .img{
+    background-color: rgb(135, 135, 135);
+}
+main .to .hidari .bun,main .to .migi .bun{
+    text-align: left;
+}
+main .to .hidari  ,main .to .migi .bun h3{
+    display: block;
+
+}
+main .to .hidari .address,main .to .migi .address{
+    text-align: right;
+}
+.address{
+    word-break: break-all;
+    width: 100%;
+}
+
+
+@media(max-width:1100px){
+    main p{
+        font-size: 0.8rem;
+    }
+    main h3{
+        font-size: 1.1rem;
+    }
+    .img{
+        height: 10rem;
+    }
+    .hidari,.migi{
+        height: 20rem;
+    }
+    .bun{
+        padding: 0 1rem;
+    }
+    .address{
+        font-size: 0.7rem!important;
+    }
+}
+
+@media(max-width:930px){
+    main p{
+        font-size: 0.75rem;
+    }
+    main h3{
+        font-size: 0.9rem;
+    }
+    .img{
+        height: 9rem;
+    }
+    .hidari,.migi{
+        height: 18.2rem;
+    }
+   .address{
+    font-size:0.6rem;
+   }
+}
+
+@media (max-width:850px) {
+    main .head h1{
+        font-size: 4rem;
+    }
+    .ii img{
+        /* height: 20rem;
+        width: 18rem; */
+    }
+}
+
+@media(max-width:800px){
+    main .to{
+        display: block;
+    }
+    .line{
+        display: none;
+    }
+    .line-bottom{
+        display: none;
+    }
+    .hidari,.migi{
+        width: 75%!important;
+        margin:  5rem auto!important;
+        height: 100%;
+    }
+    .img{
+        height: 15rem;
+    }
+
+    main h3{
+        font-size: 1.6rem;
+    }
+    main p{
+        font-size: 1.1rem;
+    }
+    .bun h3{
+        margin:0.5rem 0 ;
+    }
+    .bun{
+        height: 11rem;
+    }
+    .address{
+        font-size: 1rem!important;
+    }
+}
+
+@media(max-width:550px){
+    .img{
+        height: 12rem;
+    }
+
+    .bun{
+        height: 7rem;
+    }
+    main h3{
+        font-size: 1rem;
+   }
+   main p{
+    font-size:0.75rem ;
+   }
+   .address{
+    font-size: 0.65rem!important;
+   }
+   
+    main .head h1{
+        font-size: 3rem;
+    }
+    .ii img{
+        /* height: 17rem;
+        width: 15rem; */
+    }
+
+}
+
+
+
+@media(max-width:400px){
+
+    .img{
+        height: 10rem;
+    }
+    main h3{
+        font-size: 0.9rem;
+   }
+   main p{
+    font-size:0.7rem ;
+   }
+
+   .address{
+    font-size: 0.6rem!important;
+   }
+}
