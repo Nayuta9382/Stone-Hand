@@ -164,7 +164,9 @@
 
 @media (max-width:730px){
 
-    
+    .hot-title{
+        font-size: 2.2rem;
+    }
 
     .hot-spring-div img{
         height:15rem ;
