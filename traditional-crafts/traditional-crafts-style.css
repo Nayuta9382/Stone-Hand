@@ -71,7 +71,10 @@ main .to .hidari,main .to .migi{
 
 .img{
     height: 14rem;
+    border: 1.5px solid black;
+    border-bottom:none ;
 }
+
 
 .line{
     width: 1px;
