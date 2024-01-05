@@ -360,13 +360,13 @@ footer p {
 
     .nav-han {
         position: relative;
-        top: 10px;
+        top: 20px;
         right: 20px;
     }
 
     .nav-han:hover {
         position: relative;
-        top: 11px;
+        top: 22px;
         right: 21px;
         padding-bottom: 4.4px;
     }
