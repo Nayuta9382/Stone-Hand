@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 6.25rem;
+    background-size:cover;
 }
 .top-title h1{
     text-align: center;
@@ -69,6 +70,16 @@ main h1, main h2, main h3, main h4{
     background-color: rgb(135, 135, 135,0.4);
     margin-bottom: 1rem;
 
+}
+.content a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.content a:hover{
+    opacity: 0.6;
 }
 
 /* 左 */
@@ -137,11 +148,25 @@ main h1, main h2, main h3, main h4{
     font-size: 1.2rem;
 }
 
+@media (max-width:1250px){
+    .comprehensive{
+        left: 25%!important;
+    }
+}
+
+@media (max-width:1150px){
+    .name h2{
+        padding-right:0% ;
+
+    }
+   
+}
 
 @media (max-width:1050px){
     .content{
         height: 22rem;
     }
+    
     .right-profile{
         width: 55%;
     }
@@ -155,6 +180,9 @@ main h1, main h2, main h3, main h4{
     }
     .name h3{
         font-size: 1.1rem;
+            position: relative;
+            top:-5%;
+            left: 31%;  
     }
     
     .hobby h3 , .comment h3{
@@ -181,7 +209,11 @@ main h1, main h2, main h3, main h4{
     .name h3{
     position: relative;
     top:-5%;
-    left: 33%;
+    left: 22%;
+    }
+
+    .comprehensive{
+        left:15%!important;
     }
 
     .hobby, .comment{
@@ -192,6 +224,9 @@ main h1, main h2, main h3, main h4{
     }
     .hobby li ,.comment p{
         font-size: 1rem;
+    }
+    .hobby{
+        margin-top: 1rem;
     }
 }
 
@@ -237,6 +272,7 @@ main h1, main h2, main h3, main h4{
     .hobby{
         width: 95%;
         height: 37.5%;
+        margin-top: 0;
     }
     
     .comment{
@@ -317,6 +353,7 @@ main h1, main h2, main h3, main h4{
     }
     .hobby{
         margin-bottom: 0.3rem;
+        margin-top: 1rem;
     } 
     .hobby h3 , .comment h3{
         font-size: 1.3rem;
@@ -325,6 +362,14 @@ main h1, main h2, main h3, main h4{
         font-size: 1rem;
     }
 
+}
+
+@media (max-width:550px){
+    .name h3{
+        position: relative;
+        top:-5%;
+        left: 37%;  
+    }
 }
 @media (max-width:500px){
       .main-title h1{
@@ -344,8 +389,17 @@ main h1, main h2, main h3, main h4{
     .name h3{
         position: relative;
         top:-5%;
-        left: 33%;
+        left: 27%;
         }
+    
+}
+
+@media (max-width:450px){
+    .name h3{
+        position: relative;
+        top:-5%;
+        left: 22%;  
+    }
 }
 
 @media (max-width:420px){
@@ -365,8 +419,11 @@ main h1, main h2, main h3, main h4{
     .name h3{
         font-size: 0.9rem;
     }
-    .hobby  , .comment {
+    .comment {
         height: 40%;
+    }
+    .hobby{
+        height: 35%;
     }
     .hobby h3 , .comment h3{
         font-size: 1.1rem;

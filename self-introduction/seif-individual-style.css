@@ -1,0 +1,392 @@
+/* top-title */
+.top-title{
+    background-image: url(../index-img/top.png);
+    height: 31.25rem;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+    background-size:cover;
+    margin-bottom: 5rem;
+}
+.top-title h1{
+    text-align: center;
+    align-items: center;
+    font-size: 6rem;
+    color: white;
+    font-weight: normal;
+    -webkit-text-stroke: 1px #be9e9e;
+}
+.h1-div{
+    height: 31.25rem;
+    position: relative;
+    top:5%;
+}
+
+@media (max-width:850px){
+    .top-title{
+        height: 20rem;
+        background-size: cover;
+    }
+    .top-title h1{
+        font-size: 4rem;
+    }
+}
+
+
+/* mainコンテンツ */
+
+main{
+    margin-bottom: 5rem;
+}
+
+main h1, main h2, main h3, main h4{
+    font-weight:normal;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height:45vw ;
+    background-color: rgb(135, 135, 135,0.4);
+    margin-bottom: 1rem;
+    margin:0 auto ;
+    padding: 0 5%;
+
+}
+.content h3{
+    width: 60%;
+}
+
+.left-img{
+    width: 35%;
+    height: 100%;
+   
+}
+.left-img img{
+    border-radius: 100%;
+    width: 85%;
+    height: 20vw;
+    margin-top:15% ;
+}
+
+.right-profile{
+    padding-left: 5%;
+    padding-top:4%;
+    padding-bottom:4%;
+    width: 65%;
+    height: 100%;
+}
+.name {
+    height: 23%;
+}
+
+.name h2{
+    font-size: 3.3rem;
+    position: relative;
+    top:-5%;
+    left: 20%;
+    width: 70%;
+}
+
+.name h3{
+    font-size: 1.5rem;
+    position: relative;
+    top:2%;
+    left: 52%;
+}
+
+.hobby{
+    height: 26%;
+}
+.comment,  .native,  .interest{
+    height: 18%;
+} 
+.content h3:not(.name h3){
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.hobby ul{
+    margin: 0;
+    /* margin-top: 1%; */
+    height: 70%;
+    position: relative;
+    left: 0%;
+    padding: 0;
+}
+.hobby li{
+    height: 35%;
+    margin-left: 1rem;
+}
+.hobby li + li{
+    margin-top: 1%;
+}
+.content p ,.content li{
+    font-size: 1.5rem;
+}
+.content p{
+    position: relative;
+    top:0;
+    left: 4%;
+    /* margin-top: 0.7vw; */
+}
+
+@media (max-width:1250px){
+    .name h2{
+        font-size: 3rem;
+    }
+    
+    .content h3:not(.name h3){
+        font-size: 1.8rem;
+        
+    }
+
+    .content p ,.content li{
+        font-size: 1.35rem;
+    }
+
+    @media (max-width:1080px){
+        .name h2{
+            font-size: 2.6rem;
+        }
+        
+    }
+}
+
+@media (max-width:1080px){
+    .name h2{
+        font-size: 2.4rem;
+    }
+    .name h3{
+        font-size: 1.4rem;
+    }
+
+    .content h3:not(.name h3){
+        font-size: 1.6rem;
+        
+    }
+
+    .content p ,.content li{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (max-width:945px){
+    .content p{
+        top:-2%
+    }
+}
+
+
+@media (max-width:900px){
+    .name h2{
+        font-size: 2.2rem;
+    }
+    .name h3{
+        font-size: 1.3rem;
+    }
+
+    .content h3:not(.name h3){
+        font-size: 1.45rem;   
+    }
+    .content p ,.content li{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:850px){
+    .hobby ul{
+        top: -3%;
+    }
+}
+
+@media (max-width:830px){
+    .content p{
+        top:-4%
+    }
+    .right-profile{
+        padding-top: 3%;
+    }
+    .name h2{
+        font-size: 1.8rem;
+    }
+    .name h3{
+        font-size: 1.2rem;
+    }
+    .content h3:not(.name h3){
+        font-size: 1.25rem;   
+    }
+
+    .content p ,.content li{
+        font-size: 1rem;
+    }
+}
+@media (max-width:750px){
+    .name h3{
+        left: 40%;
+    }
+}
+
+@media (max-width:720px){
+    .content p{
+        top:-5%
+    }
+
+    .hobby ul{
+        top: -5%;
+    }
+    .name h3{
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width:700px){
+    .content p{
+        top:-12%
+    }
+
+    .hobby ul{
+        top: -9%;
+    }
+    
+}
+
+@media (max-width:650px){
+    .right-profile{
+        padding-top: 4%;
+    }
+    .content{
+        height: 60vw;
+    }
+    .name{
+        height: 18%;
+    }
+    .name h3{
+        top: -5%;
+        left: 30%;
+        white-space:nowrap;
+    }
+
+    .content h3:not(.name h3){
+    white-space:nowrap;
+    }
+        
+
+    .content p{
+        white-space:nowrap;
+        top:0%
+    }
+
+    .hobby ul{
+        top:0;
+    }
+
+}
+
+@media (max-width:600px){
+    .name h2{
+        font-size: 1.6rem;
+    }
+    .name h3{
+        font-size: 1rem;
+        left: 40%;
+    }
+
+    
+
+    .content h3:not(.name h3){
+        font-size: 1.1rem;   
+    }
+
+    .content p ,.content li{
+        font-size: 0.9rem;
+    }
+}
+
+@media  (max-width:530px){
+    .name h3{
+        left: 33%;
+    }
+}
+
+@media (max-width:500px){
+    .content p{
+        top:-5%
+    }
+    .right-profile{
+        padding-top: 3%;
+    }
+    .name h2{
+        font-size: 1.4rem;
+    }
+    .name h3{
+        font-size:0.9rem ;
+    }
+    .content h3:not(.name h3){
+        font-size: 1rem;   
+    }
+
+    .content p ,.content li{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width:450px){
+    .name h2{
+        left: 10%;
+        white-space:nowrap;
+    }
+    .content{
+        height: 70vw;
+        padding-left: 0;
+    }
+    .left-img img{
+        margin: 0 auto;
+        margin-top: 15%;
+        width: 70%;
+        height: 17vw;
+    }
+    .right-profile{
+        padding-left: 2%;
+    }
+    
+}
+
+@media (max-width:430px){
+    .name h2{
+        font-size: 1.2rem;
+    }
+    .name h3{
+        font-size: 0.8rem;
+    }
+
+    .content h3:not(.name h3){
+        font-size: 0.9rem;   
+    }
+
+    .content p ,.content li{
+        font-size: 0.75rem;
+    }
+
+    .content p{
+        top:4%
+    }
+
+}
+
+@media (max-width:390px){
+
+    .content{
+        height: 276px;
+    }
+    .left-img img{
+        height: 67px;
+    }
+
+    
+}
