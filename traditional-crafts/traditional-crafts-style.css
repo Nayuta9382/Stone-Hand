@@ -1,9 +1,7 @@
-/* top　画像　各々微調整 */
+
 .ii img{
     width: 100%;
-    /* height: 43.75rem;
-     */
-     height: 60vw;
+    height: 60vw;
     margin: 0 auto;
 }
 
@@ -31,9 +29,7 @@ main .head h1{
     font-size: 6rem;
 }
 main .head .ii{
-    
-    /* height: 25rem; */
-    margin-top: 2rem;
+margin-top: 2rem;
 }
 
 main .to{
@@ -155,10 +151,6 @@ main .to .hidari .address,main .to .migi .address{
     main .head h1{
         font-size: 4rem;
     }
-    .ii img{
-        /* height: 20rem;
-        width: 18rem; */
-    }
 }
 
 @media(max-width:800px){
@@ -217,10 +209,6 @@ main .to .hidari .address,main .to .migi .address{
    
     main .head h1{
         font-size: 3rem;
-    }
-    .ii img{
-        /* height: 17rem;
-        width: 15rem; */
     }
 
 }
