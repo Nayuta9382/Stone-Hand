@@ -1,4 +1,3 @@
-/* topimg */
 .top-title{
     background-image: url(./index-img/top.png);
     height: 31.25rem;
@@ -22,8 +21,6 @@
     top:5%;
 }
 
-
-/* 温泉 */
 .hot-spring-div{
     margin-top: 6.25rem;
     margin-left:40px;
@@ -59,8 +56,6 @@
     opacity: 0.6;
 }
 
-
-/* その他コンテンツ */
 
 .sab-contents{
     margin-top: 6.25rem;
@@ -110,7 +105,6 @@
     opacity: 0.6;
 }
 
-/* トップメディア */
 @media (max-width:850px){
     .top-title{
         height: 20rem;
@@ -123,7 +117,6 @@
 
 
 
-/* メインコンテンツメディア */
 
 @media (max-width:1100px){
     .hot-title{
@@ -148,6 +141,7 @@
 
     .hot-p{
         font-size: 1rem;
+        padding-right: 0;
     }
     .hot-explanation{
         display: block;
@@ -202,7 +196,7 @@
 }
 
 
-/* サブコンテンツメディア */
+
 @media (max-width:940px){
 
     .introduction h1{

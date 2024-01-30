@@ -1,4 +1,4 @@
-/* top-title */
+
 .top-title{
     background-image: url(../index-img/top.png);
     height: 31.25rem;
@@ -34,10 +34,10 @@
 }
 
 
-/* mainコンテンツ */
 
 main{
     margin-bottom: 5rem;
+    position: relative;
 }
 
 main h1, main h2, main h3, main h4{
@@ -93,10 +93,16 @@ main h1, main h2, main h3, main h4{
 .name h3{
     font-size: 1.5rem;
     position: relative;
-    top:2%;
+    top:2%; 
+    
+}
+.name h3:not(.altitude){
     left: 52%;
 }
 
+.altitude{
+    left: 70%;
+}
 .hobby{
     height: 26%;
 }
@@ -110,10 +116,10 @@ main h1, main h2, main h3, main h4{
 
 .hobby ul{
     margin: 0;
-    /* margin-top: 1%; */
+
     height: 70%;
     position: relative;
-    left: 0%;
+    left: 0.5%;
     padding: 0;
 }
 .hobby li{
@@ -130,7 +136,28 @@ main h1, main h2, main h3, main h4{
     position: relative;
     top:0;
     left: 4%;
-    /* margin-top: 0.7vw; */
+}
+.btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 100vh;
+    color: #333;
+    border: 1px solid #999;
+    text-shadow: 0 1px #fff;
+    box-shadow: 0 3px 2px 1px #fcfcfc, 0 4px 6px #cecfd1, 0 -2px 2px #cecfd1, 0 -4px 2px #eee, inset 0 0 2px 2px #cecfd1;
+    transition: 0.5s;
+    position: relative;
+    top: 30px;
+    left: 83%;
+}
+.btn:hover{
+    opacity: 0.5;
 }
 
 @media (max-width:1250px){
@@ -179,6 +206,11 @@ main h1, main h2, main h3, main h4{
         top:-2%
     }
 }
+@media (max-width:1000px){
+    .altitude{
+        left: 60%;
+    }
+}
 
 
 @media (max-width:900px){
@@ -194,6 +226,9 @@ main h1, main h2, main h3, main h4{
     }
     .content p ,.content li{
         font-size: 1.1rem;
+    }
+    .btn{
+    left: 78%;
     }
 }
 
@@ -225,7 +260,7 @@ main h1, main h2, main h3, main h4{
     }
 }
 @media (max-width:750px){
-    .name h3{
+    .name h3:not(.altitude){
         left: 40%;
     }
 }
@@ -265,10 +300,13 @@ main h1, main h2, main h3, main h4{
     .name{
         height: 18%;
     }
-    .name h3{
+    .name h3:not(.altitude){
         top: -5%;
         left: 30%;
         white-space:nowrap;
+    }
+    .altitude{
+        left: 50%;
     }
 
     .content h3:not(.name h3){
@@ -293,6 +331,8 @@ main h1, main h2, main h3, main h4{
     }
     .name h3{
         font-size: 1rem;
+    }
+    .name h3:not(.altitude){
         left: 40%;
     }
 
@@ -305,10 +345,13 @@ main h1, main h2, main h3, main h4{
     .content p ,.content li{
         font-size: 0.9rem;
     }
+    .btn{
+        left: 70%;
+        }
 }
 
 @media  (max-width:530px){
-    .name h3{
+    .name h3:not(.altitude){
         left: 33%;
     }
 }
@@ -387,6 +430,6 @@ main h1, main h2, main h3, main h4{
     .left-img img{
         height: 67px;
     }
-
     
+
 }

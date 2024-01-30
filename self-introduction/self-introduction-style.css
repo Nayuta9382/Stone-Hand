@@ -1,14 +1,15 @@
 /* top-title */
-.top-title{
+.top-title {
     background-image: url(../index-img/top.png);
     height: 31.25rem;
-    background-position:center;
+    background-position: center;
     display: flex;
     flex-direction: column;
     margin-top: 6.25rem;
-    background-size:cover;
+    background-size: cover;
 }
-.top-title h1{
+
+.top-title h1 {
     text-align: center;
     align-items: center;
     font-size: 6rem;
@@ -16,427 +17,553 @@
     font-weight: normal;
     -webkit-text-stroke: 1px #be9e9e;
 }
-.h1-div{
+
+.h1-div {
     height: 31.25rem;
     position: relative;
-    top:5%;
+    top: 5%;
 }
 
-@media (max-width:850px){
-    .top-title{
+@media (max-width:850px) {
+    .top-title {
         height: 20rem;
         background-size: cover;
     }
-    .top-title h1{
+
+    .top-title h1 {
         font-size: 4rem;
     }
 }
 
 /* main-title */
-main h1, main h2, main h3, main h4{
-    font-weight:normal;
+main h1,
+main h2,
+main h3,
+main h4 {
+    font-weight: normal;
 }
-.main-title{
+
+.main-title {
     text-align: center;
-    margin-top:4rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
 }
-.main-title h1{
+
+.main-title h1 {
     text-align: center;
     font-size: 3.125rem;
     margin-bottom: 0.7rem;
 }
-.main-title img{
+
+.main-title img {
     display: inline;
     width: 40rem;
 }
 
 
 /* メインコンテンツ */
-.main-contents{
+.main-contents {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
 }
-.content + .content{
+
+.content+.content {
     margin-left: 7%;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     width: 40%;
-    height:25rem ;
-    background-color: rgb(135, 135, 135,0.4);
+    height: 25rem;
+    background-color: rgb(135, 135, 135, 0.4);
     margin-bottom: 1rem;
 
 }
-.content a{
+
+.content a {
     text-decoration: none;
     width: 100%;
     display: flex;
     justify-content: center;
     color: black;
 }
-.content a:hover{
+
+.content a:hover {
     opacity: 0.6;
 }
 
 /* 左 */
-.left-img{
+.left-img {
     width: 30%;
     height: 100%;
-   
+
 }
-.left-img img{
+
+.left-img img {
     border-radius: 100%;
     width: 75%;
     height: 8.5vw;
-    margin-top:30% ;
+    margin-top: 30%;
 }
 
 
 /* 右 */
 /* 幅　フォントサイズ */
-.right-profile{
-    padding-top:6%;
-    padding-bottom:3%;
+.right-profile {
+    padding-top: 6%;
+    padding-bottom: 3%;
     width: 50%;
     height: 100%;
 }
 
-.name{
+.name {
     height: 25%;
 }
 
-.hobby{
+.hobby {
     width: 95%;
     height: 37.5%;
     margin: 0 auto;
 }
 
-.comment{
+.comment {
     width: 95%;
     height: 37.5%;
     margin: 0 auto;
 }
 
-.name h2{
+.name h2 {
     font-size: 2.25rem;
     text-align: center;
     padding-right: 20%;
 }
 
-.name h3{
+.name h3 {
     font-size: 1.2rem;
     position: relative;
-    top:-5%;
-    left: 42%;
+    top: -5%;
     padding-top: 0.3rem;
+    width: 50%;
+    white-space: nowrap
+        /* pointer-events:none; */
 }
 
-.hobby h3 , .comment h3{
+.name h3:not(.altitude) {
+    left: 42%;
+}
+
+.altitude {
+    left: 60%;
+}
+
+.hobby h3,
+.comment h3 {
     font-size: 1.75rem;
 }
-.hobby ul{
+
+.hobby ul {
     margin: 0;
     padding-left: 30px;
 }
 
 
-.hobby li ,.comment p{
+.hobby li,
+.comment p {
     font-size: 1.2rem;
 }
 
-@media (max-width:1250px){
-    .comprehensive{
-        left: 25%!important;
+@media (max-width:1250px) {
+    .altitude {
+        left: 50%;
+    }
+
+    .comprehensive {
+        left: 25% !important;
     }
 }
 
-@media (max-width:1150px){
-    .name h2{
-        padding-right:0% ;
+@media (max-width:1200px) {
+    .name h2 {
+        padding-right: 0%;
 
     }
-   
+
 }
 
-@media (max-width:1050px){
-    .content{
+@media (max-width:1130px) {
+    .altitude {
+        left: 40%;
+    }
+}
+
+@media (max-width:1050px) {
+    .content {
         height: 22rem;
     }
-    
-    .right-profile{
+
+    .right-profile {
         width: 55%;
     }
-    .name{
+
+    .name {
         height: 22%;
     }
-    .name h2{
+
+    .name h2 {
         font-size: 1.8rem;
         margin-top: 0.5rem;
         padding-right: 0;
     }
-    .name h3{
+
+    .name h3:not(.altitude) {
         font-size: 1.1rem;
-            position: relative;
-            top:-5%;
-            left: 31%;  
+        position: relative;
+        top: -5%;
+        left: 31%;
     }
-    
-    .hobby h3 , .comment h3{
+
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.5rem;
     }
-    .hobby li ,.comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 1.1rem;
     }
 }
 
-@media (max-width:900px){
-    .main-title h1{
+@media (max-width:950px) {
+    .altitude {
+        left: 35%;
+    }
+}
+
+@media (max-width:900px) {
+    .main-title h1 {
         font-size: 2.75rem;
     }
-    .main-title img{
+
+    .main-title img {
         width: 35rem;
     }
-    .content{
+
+    .content {
         height: 19rem;
     }
-    .name h2{
+
+    .name h2 {
         font-size: 1.7rem;
     }
-    .name h3{
-    position: relative;
-    top:-5%;
-    left: 22%;
+
+    .name h3:not(.altitude) {
+        position: relative;
+        top: -5%;
+        left: 22%;
     }
 
-    .comprehensive{
-        left:15%!important;
+    .comprehensive {
+        left: 15% !important;
     }
 
-    .hobby, .comment{
+    .hobby,
+    .comment {
         height: 40%;
     }
-    .hobby h3 , .comment h3{
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.3rem;
     }
-    .hobby li ,.comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 1rem;
     }
-    .hobby{
+
+    .hobby {
         margin-top: 1rem;
     }
 }
 
 /* flex解除 */
 
-@media (max-width:800px){
-    .main-title h1{
+@media (max-width:800px) {
+    .main-title h1 {
         font-size: 2.5rem;
         margin-bottom: 0.3rem;
     }
 
-    .main-title img{
+    .main-title img {
         width: 30rem;
     }
 
-    .left-img img{
+    .left-img img {
         height: 15.3vw;
     }
-    .main-contents{
+
+    .main-contents {
         display: block;
     }
 
-    .content + .content{
+    .content+.content {
         margin-left: auto;
     }
 
-    .content{
+    .content {
         margin: 0 auto;
         margin-bottom: 3rem;
         width: 70%;
         height: 25rem;
     }
 
-    
-    .right-profile{
+
+    .right-profile {
         width: 50%;
     }
-    
-    .name{
+
+    .name {
         height: 25%;
     }
-    
-    .hobby{
+
+    .hobby {
         width: 95%;
         height: 37.5%;
         margin-top: 0;
     }
-    
-    .comment{
+
+    .comment {
         width: 95%;
         height: 37.5%;
     }
-    
-    .name h2{
+
+    .name h2 {
         font-size: 2.25rem;
         text-align: center;
         margin-top: 0;
     }
-    
-    .name h3{
+
+    .name h3:not(.altitude) {
         font-size: 1.2rem;
         position: relative;
-        top:-5%;
-        left: 42%;
+        top: -5%;
+        left: 42% !important;
         padding-top: 0.3rem;
     }
-    
-    .hobby h3 , .comment h3{
+
+    .altitude {
+        left: 52%;
+    }
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.75rem;
     }
-    
-    .hobby li ,.comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 1.2rem;
     }
 }
 
-@media (max-width:660px){
-    .main-title h1{
+@media (max-width:660px) {
+    .main-title h1 {
         font-size: 2.3rem;
     }
-    .main-title img{
+
+    .main-title img {
         width: 28rem;
     }
-    .content{
+
+    .content {
         height: 22rem;
     }
-    .name h2{
+
+    .name h2 {
         font-size: 1.8rem;
     }
-    .name h3{
+
+    .name h3 {
         font-size: 1.1rem;
     }
-    
-    .hobby h3 , .comment h3{
+
+    .name h3:not(.altitude) {
+        left: 30% !important;
+    }
+
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.5rem;
     }
-    .hobby li , .comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 1.1rem;
     }
 }
 
-@media (max-width:600px){
-    .main-title h1{
+@media (max-width:600px) {
+    .main-title h1 {
         font-size: 2rem;
     }
-    .main-title img{
+
+    .main-title img {
         width: 25rem;
     }
-    .right-profile{
+
+    .right-profile {
         width: 55%;
     }
-    .content{
+
+    .content {
         height: 19rem;
     }
-    .name{
+
+    .name {
         height: 20%;
         margin-bottom: 0.3rem;
     }
-    .name h2{
+
+    .name h2 {
         font-size: 1.6rem;
     }
-    .name h3{
+
+    .name h3 {
         font-size: 1rem;
     }
-    .hobby{
+
+    .name h3:not(.altitude) {
+        left: 40% !important;
+        font-size: 1rem;
+    }
+
+    .hobby {
         margin-bottom: 0.3rem;
         margin-top: 1rem;
-    } 
-    .hobby h3 , .comment h3{
+    }
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.3rem;
     }
-    .hobby li , .comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 1rem;
     }
 
 }
 
-@media (max-width:550px){
-    .name h3{
+@media (max-width:550px) {
+    .name h3:not(.altitude) {
         position: relative;
-        top:-5%;
-        left: 37%;  
+        top: -5%;
+        left: 35% !important;
     }
 }
-@media (max-width:500px){
-      .main-title h1{
+
+@media (max-width:500px) {
+    .main-title h1 {
         font-size: 1.8rem;
         margin-bottom: 0.1rem;
     }
-    .main-title img{
+
+    .main-title img {
         width: 23rem;
     }
-    .content{
+
+    .content {
         height: 18rem;
     }
-    .name h2{
+
+    .name h2 {
         text-align: left;
         padding-left: 15%;
     }
-    .name h3{
-        position: relative;
-        top:-5%;
-        left: 27%;
-        }
-    
-}
 
-@media (max-width:450px){
-    .name h3{
+    .name h3:not(.altitude) {
         position: relative;
-        top:-5%;
-        left: 22%;  
+        top: -5%;
+        left: 30% !important;
     }
+
+    .altitude {
+        left: 40%;
+    }
+
 }
 
-@media (max-width:420px){
-    .main-title h1{
+@media (max-width:450px) {
+    .name h3:not(.altitude) {
+        position: relative;
+        top: -5%;
+        left: 20% !important;
+    }
+
+}
+
+@media (max-width:420px) {
+    .main-title h1 {
         font-size: 1.6rem;
         margin-bottom: 0;
     }
-    .main-title img{
+
+    .main-title img {
         width: 20rem;
     }
-    .content{
+
+    .content {
         height: 15rem;
     }
-    .name h2{
+
+    .name h2 {
         font-size: 1.2rem;
     }
-    .name h3{
+
+    .name h3 {
         font-size: 0.9rem;
     }
+
+    .name h3:not(.altitude) {
+        font-size: 0.9rem;
+    }
+
     .comment {
         height: 40%;
     }
-    .hobby{
+
+    .hobby {
         height: 35%;
     }
-    .hobby h3 , .comment h3{
+
+    .hobby h3,
+    .comment h3 {
         font-size: 1.1rem;
     }
-    .hobby li , .comment p{
+
+    .hobby li,
+    .comment p {
         font-size: 0.9rem;
     }
 
 }
 
-@media (max-width:390px){
+@media (max-width:390px) {
 
-    .left-img img{
+    .left-img img {
         height: 60px;
+    }
+
+    .name h3:not(.altitude) {
+        left: 15% !important;
+        ;
+    }
+
+    .altitude {
+        left: 30%;
     }
 }

@@ -1,11 +1,9 @@
 body {
     font-family: 'Noto Serif JP', serif;
     min-width: 375px;
+    max-width: 1550px;
 }
 
-
-
-/* header */
 
 header {
     padding-left: 1.5rem;
@@ -173,11 +171,6 @@ nav li:hover .img-hover4 {
     top: -2%;
 }
 
-
-/* main */
-
-
-/* footer */
 footer {
     height: 6.25rem;
     background-color: #EAE8E8;
