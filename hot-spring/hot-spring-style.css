@@ -454,3 +454,11 @@ iframe {
         height: 275px;
     }
 }
+@media (min-width:1550px) {
+    .top-spring,.keigo-0{
+        height: 775px;
+    }
+    iframe{
+        height: 263px;
+    }
+}
