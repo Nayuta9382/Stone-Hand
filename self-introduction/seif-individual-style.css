@@ -433,3 +433,11 @@ main h1, main h2, main h3, main h4{
     
 
 }
+@media (min-width:1550px) {
+    .left-img img{
+     height: 310px;
+    }
+    .content{
+        height: 700px;
+    }
+ }

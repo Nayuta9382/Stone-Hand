@@ -231,3 +231,8 @@ main .to .hidari .address,main .to .migi .address{
     font-size: 0.6rem!important;
    }
 }
+@media (min-width:1550px) {
+   .head img{
+    height: 1033px;
+   }
+}
